@@ -1,0 +1,15 @@
+// Make Mint-Y-Dark similar green accents and get rid of light grey panel and dialog accents. To use in terminal
+
+sudo sed -i 's/#3584e4/#00AA00/g' /usr/share/cinnamon/theme/cinnamon.css
+sudo sed -i 's/#3584e4/#555555/g' /usr/share/cinnamon/theme/cinnamon.css
+sudo sed -i 's/#454545/#222223/g' /usr/share/cinnamon/theme/cinnamon.css
+sudo sed -i 's/#333333/#222223/g' /usr/share/cinnamon/theme/cinnamon.css
+sudo sed -i 's/#78aeed/#00AA00/g' /usr/share/cinnamon/theme/cinnamon.css
+
+// Update blue toogle-on button with green version. To use in terminal
+
+sudo cp -f ./toggle-on.svg /usr/share/cinnamon/theme
+
+// Mint-Y-Dark green running application instances counter badge
+
+Open /usr/share/cinnamon/theme/cinnamon.css in you favourite text editor with root privileges and change background-color value in "grouped-window-list-badge" to 00AA00
