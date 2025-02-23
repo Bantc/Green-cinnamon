@@ -13,3 +13,9 @@ sudo cp -f ./toggle-on.svg /usr/share/cinnamon/theme
 // Mint-Y-Dark green running application instances counter badge
 
 Open /usr/share/cinnamon/theme/cinnamon.css in you favourite text editor with root privileges and change background-color value in "grouped-window-list-badge" to 00AA00
+
+// Green window tile preview
+
+Open /usr/share/cinnamon/theme/cinnamon.css in you favourite text editor with root privileges and change "rgba" values in below "tile-preview" components:
+- background-color: 0, 170, 0, 0.2
+- border: 0, 170, 0, 0.7
