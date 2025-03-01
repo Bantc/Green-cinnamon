@@ -12,4 +12,6 @@ Changes includes:
 
 All you have to do is download the package and follow the instructions from commands.txt or execute green_cinnamon.sh script with root privileges.
 
+:red_circle: <b><ins>IMPORTANT</ins></b>: <ins>Remember to always backup your _cinnamon.css_ and _toggle-on.svg_ files located in /usr/share/cinnamon/theme before applying any changes.</ins>
+
 <b>NOTE: Currently it is mostly a tweak of colours in existing cinnamon.css file. Therefore, each Mint update can override it back to default and instructions from commands.txt or green_cinnamon.sh script will have to be executed again.</b>
