@@ -9,6 +9,8 @@ sed -i 's/#3584e4/#555555/g' /usr/share/cinnamon/theme/cinnamon.css
 sed -i 's/#454545/#222223/g' /usr/share/cinnamon/theme/cinnamon.css
 sed -i 's/#333333/#222223/g' /usr/share/cinnamon/theme/cinnamon.css
 sed -i 's/#78aeed/#00AA00/g' /usr/share/cinnamon/theme/cinnamon.css
+sed -i 's/#629fea/#33bb33/g' /usr/share/cinnamon/theme/cinnamon.css
+sed -i 's/#1f76e1/#007700/g' /usr/share/cinnamon/theme/cinnamon.css
 
 # Green window tile preview.
 sed -i 's/background-color: rgba(120, 174, 237, 0.2)/background-color: rgba(0, 170, 0, 0.2)/g' /usr/share/cinnamon/theme/cinnamon.css
